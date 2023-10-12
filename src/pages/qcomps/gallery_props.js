@@ -18,8 +18,7 @@ export default function Gallery() {
           </li>
           <li>
             <b>Awards: 4 </b>
-            (Nobel Prize in Physics, Nobel Prize in
-Chemistry, Davy Medal, Matteucci Medal)
+            (Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)
           </li>
           <li>
             <b>Discovered: </b>
@@ -47,8 +46,7 @@ Chemistry, Davy Medal, Matteucci Medal)
           </li>
           <li>
             <b>Discovered: </b>
-            a method for measuring carbon dioxide in
-seawater
+            a method for measuring carbon dioxide in seawater
           </li>
         </ul>
       </section>
