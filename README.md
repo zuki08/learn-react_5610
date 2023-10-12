@@ -1,6 +1,7 @@
 ## Getting Started
+First, fork this repository and clone it to your local machine.
 
-First, run the development server:
+Then, run the development server:
 
 ```bash
 npm run dev
