@@ -17,7 +17,27 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the an image displayed.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Next, create a new branch using the following command:
+
+`$ git checkout –b mmddyyyy`
+
+Add your name to the README.md file.
+
+Add modified/new files to branch using:
+
+`$ git add /path/to/file`
+
+`$ git commit -m "message"`
+
+Push new branch to origin (first time pushing to branch):
+
+`$ git push origin branch-name`
+
+Standard push (for subsequent pushes):
+
+`$ git push`
+
+The file `pages/index.js` is the starting page of the app.
 
 ## Learn More
 
