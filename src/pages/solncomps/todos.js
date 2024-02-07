@@ -20,4 +20,3 @@ export default function TodoList() {
     </div>
   );
 }
-// baseUrl + person.imageId + person.imageSize + ".jpg"
