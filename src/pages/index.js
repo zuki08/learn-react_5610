@@ -2,12 +2,12 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Profile from './solncomps/profile_mistake'
+import Todos from './qcomps/todos'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Profile />
+        <Todos />
     </div>
   )
 }
