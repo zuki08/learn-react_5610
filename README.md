@@ -40,3 +40,7 @@ The file `pages/index.js` is the starting page of the app.
 ## Learn More
 
 To learn more about React.js, take a look at the [React Documentation](https://legacy.reactjs.org/docs/getting-started.html#learn-react)
+
+## What to Submit?
+
+Submit all changes made to files in `src/pages/qcomps` in Canvas class activity for the day.
