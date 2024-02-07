@@ -1,6 +1,8 @@
+import styles from '@/styles/Home.module.css';
+
 function Square({children}) {
   return (
-    <div className="square">
+    <div className={styles.square}>
       {children}
     </div>
   )
