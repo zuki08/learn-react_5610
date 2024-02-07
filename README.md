@@ -2,8 +2,6 @@
 
 Full Name: Enter Your Full Name
 
-Northeastern ID: Enter your Northeastern ID
-
 ## Getting Started
 First, fork this repository and clone it to your local machine.
 
