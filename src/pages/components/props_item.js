@@ -1,7 +1,9 @@
- function Item({ name, isPacked }) {
-   return <li className="item">{name}</li>;
- }
-
+function Item({ name, isPacked }) {
+  if (isPacked) {
+    return <li className="item">{name} ✔</li>;
+  }
+  return <li className="item"> {name} </li>
+}
 
 export default function PackingList() {
   return (
@@ -9,7 +11,7 @@ export default function PackingList() {
       <h1>My Packing List</h1>
       <ul>
         <Item
-          isPacked={true}
+          isPacked={false}
           name="Laptop"
         />
         <Item
@@ -17,7 +19,7 @@ export default function PackingList() {
           name="Chargers"
         />
         <Item
-          isPacked={false}
+          isPacked={true}
           name="Socks"
         />
       </ul>
