@@ -2,7 +2,7 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Profile from './components/profile.js'
+import Profile from './solncomps/profile_mistake'
 
 export default function Home() {
   return (
