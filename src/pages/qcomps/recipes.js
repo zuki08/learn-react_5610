@@ -13,10 +13,26 @@ export const recipes = [{
 }];
 
 export default function RecipeList() {
+  function getComps(){
+    return recipes.map(ele => {
+      return (
+        <div key={ele.id}>
+          <h3>{ele.name}</h3>
+          <ul>
+            {Array.from(ele.ingredients).map((e,index) => {
+              return (
+                <li key={e+index}>{e}</li>
+              )
+            })}
+          </ul>
+        </div>
+      )
+    })
+  }
   return (
     <div>
       <h1>Recipes</h1>
-      {}
+      {getComps()}
     </div>
   );
 }
