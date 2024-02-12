@@ -2,16 +2,25 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-// import Component from './qcomps/menuBar'
-// import Component from './components/button'
-// import Component from './qcomps/recipes'
-import Component from './qcomps/list_keys_id'
-// import Component from './components/list_keys'
+
+import StuckForm from './qcomps/stuckForm'
+import PersonData from './components/stateObj'
+import CompState from './qcomps/state'
+import MenuBar from './qcomps/menuBar'
+import Button from './components/button'
+import Recipe from './qcomps/recipes'
+import ListKey from './qcomps/list_keys_id'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Component />
+      <StuckForm />
+      <PersonData />
+      <CompState />
+      <MenuBar />
+      <Button />
+      <Recipe />
+      <ListKey />
     </div>
   )
 }
