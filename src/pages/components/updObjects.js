@@ -2,11 +2,11 @@ import { useState } from 'react';
 
 export default function Form() {
   const [person, setPerson] = useState({
-    name: 'Niki de Saint Phalle',
+    name: 'Ranjani Shettar',
     artwork: {
-      title: 'Blue Nana',
-      city: 'Hamburg',
-      image: 'https://i.imgur.com/Sd1AgUOm.jpg',
+      title: 'Aureole',
+      city: 'Bangalore',
+      image: 'https://i.imgur.com/okTpbHhm.jpg',
     }
   });
 
@@ -19,6 +19,7 @@ export default function Form() {
 
   return (
     <>
+      <img src={person.artwork.image}/>
       <label>
         City:
         <input
